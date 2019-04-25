@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "prettier/react", "plugin:react/recommended"],
+  "plugins": ["jsx-a11y", "import"]
+}
